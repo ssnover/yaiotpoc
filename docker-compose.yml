@@ -1,0 +1,10 @@
+version: "3.9"
+services:
+  mqtt-broker:
+    image: "eclipse-mosquitto:openssl"
+    network_mode: "host"
+  apps:
+    build: .
+    network_mode: "host"
+    volumes:
+      - .:/apps

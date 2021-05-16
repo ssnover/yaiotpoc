@@ -1,7 +1,3 @@
-[package]
-name = "yaiotpoc"
-version = "0.1.0"
-authors = ["Shane Snover <ssnover95@gmail.com>"]
-edition = "2018"
-
-[dependencies]
+[workspace]
+members = ["crates/*"]
+exclude = ["crates/.cargo", "crates/target"]
