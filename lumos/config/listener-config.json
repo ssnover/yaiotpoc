@@ -1,0 +1,8 @@
+{
+    "CasetaIP": "192.168.1.11",
+    "CasetaCrt": "/config/caseta.crt",
+    "CasetaKey": "/config/caseta.key",
+    "CasetaBridgeCrt": "/config/caseta-bridge.crt",
+    "MQTTBrokerIP": "127.0.0.1",
+    "ButtonEventTopic": "/lumos/events"
+}

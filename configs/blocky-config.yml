@@ -4,6 +4,9 @@ upstream:
     - 80.241.218.68
     - tcp-tls:fdns1.dismail.de:853
     - https://dns.digitale-gesellschaft.ch/dns-query
+customDNS:
+  mapping:
+    paladin.local: 192.168.1.200
 blocking:
   blackLists:
     ads:

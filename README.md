@@ -1,6 +1,10 @@
-# yaiotpoc
-This project is just an omnibus daemon for testing out various technologies used for IoT applications. I'll probably try to keep some high-level documentation up to date in case anything in here can serve as a proof of concept for someone else.
+# home-server-configuration
+This repo is the master repo for docker configuration and application config files for booting the containers/apps running on my home server.
 
-## Technologies Employed
-* Raspberry Pi
-* Rust
+## Applications
+* Home Assistant - Home automation
+* Blocky - DNS ad-blocker
+* Eclipse Mosquitto - MQTT broker
+* Lumos - Lighting controls
+* Heimdall - Landing page
+* Octoprint - 3D Printer Manager

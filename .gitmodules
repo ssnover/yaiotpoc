@@ -1,6 +1,6 @@
-[submodule "crates/lumos"]
-	path = crates/lumos
+[submodule "lumos/lumos"]
+	path = lumos/lumos
 	url = git@github.com:ssnover/lumos.git
-[submodule "scripts/caseta-button-event-listener"]
-	path = scripts/caseta-button-event-listener
+[submodule "lumos/caseta-button-event-listener"]
+	path = lumos/caseta-button-event-listener
 	url = git@github.com:ssnover/caseta-button-event-listener.git

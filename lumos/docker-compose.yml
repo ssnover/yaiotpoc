@@ -1,0 +1,16 @@
+version: "3.9"
+services:
+  lumos:
+    build: .
+    network_mode: "host"
+    volumes:
+      - ./config:/config
+      - ./build:/apps
+  mqtt-broker:
+    image: "eclipse-mosquitto:openssl"
+    container_name: mosquitto_lumos
+    restart: unless-stopped
+    network_mode: "host"
+    volumes:
+      - ./config/mosquitto.conf:/mosquitto/config/mosquitto.conf
+    
