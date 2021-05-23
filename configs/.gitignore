@@ -1,0 +1,8 @@
+home-assistant.log
+home-assistant_v2.db*
+tts/
+deps/
+secrets.yaml
+.HA_VERSION
+*.pem
+.storage
